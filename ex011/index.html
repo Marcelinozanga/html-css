@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="Pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width:750px )" srcset="imagem/fotop.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagem/foto+g.png" type="image/png">
+        <img src="imagem/fotog.png" alt="imagem flexivel">
+    </picture>
+        <h1>Reproduzindo audio</h1>
+        <p>Vamos aprender a reproduzir audio em HTML5 </p>
+        <!--mp3 wav ogg formatos que devem ser utilizados-->
+        <audio preload="metadata"controls>
+            <source src="midia/Borges_-_Iphone_Branco_(Prod._L3ozin)(128k).mp3" type="audio/mpeg">
+            <source src="midia/Borges_-_Iphone_Branco_(Prod._L3ozin)(128k).mp3" type="audio/ogg">
+            <source src="midia/Borges_-_Iphone_Branco_(Prod._L3ozin)(128k).mp3" type="audio/wav">
+        </audio>
+        <p>Infelizmente seu navegador não consegue reproduzir audio. <a href="midia/Borges_-_Iphone_Branco_(Prod._L3ozin)(128k).mp3">clique aqui para baixar o arquivo mp3</a></p>
+
+
+</body>
+</html>
