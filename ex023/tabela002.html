@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Document</title>
+   <style>
+      body{
+         font-family: Arial, Helvetica, sans-serif
+      }
+      
+      table{
+         width: 500px;
+         border-collapse: collapse;
+         position: relative;
+      }
+      td,th{
+         border: 1px solid black;
+         padding: 10px;
+      }
+      thead, tfoot{
+         background-color: gray;
+         color: white;
+      }
+      thead > tr > th{
+         position: sticky;
+         top: -1px;
+         background-color: gray;
+      }
+      caption{
+         font-size: 1.5em;
+         font-weight: bold;
+         padding:10px;
+         background-color: lightgray;
+      }
+   </style>
+</head>
+<body>
+   <h1>Uso de tabelas grandes</h1>
+   <!-- anatomia para tabelas grandes
+        table :
+        caption [legenda da tabela]
+        THead  [TR TD TH]
+        TBody  [TR TD TH]
+        TFoot  [TR TD TH]
+   -->
+   
+   <table>
+      <caption>Número de população das províncias de Angola</caption>
+      <thead>
+         <tr>
+            <th scope="col">Província</th>
+            <th scope="col" style="width: 100px">População</th>
+         </tr>
+      </thead>
+      <tbody>
+         <tr>
+            <td>Luanda</td>
+            <td>49 865 76</td>
+         </tr>
+         <tr>
+            <td>Bengo</td>
+            <td>30 352 56</td>
+         </tr>
+         <tr>
+            <td>Benguela</td>
+            <td>20 291 20</td>
+         </tr>
+         <tr>
+            <td>Huambo</td>
+            <td>39 068 56</td>
+         </tr>
+         <tr>
+            <td>Lunda-Sul</td>
+            <td>203 35</td>
+         </tr>
+         <tr>
+            <td>Kwanza-Norte</td>
+            <td>210 876</td>
+         </tr>
+         <tr>
+             <td>kkkkkk</td>
+             <td>994 45 666</td>
+          </tr>
+           <tr>
+             <td>kuando</td>
+             <td>987 09 765</td>
+          </tr>
+          <tr>
+              <Td>Exemplo</td>
+              <Td>945 345 23</td>
+         </tr>
+          <tr>
+              <Td>Exemplo</td>
+              <Td>945 345 23</td>
+          </tr>
+           <tr>
+              <Td>Exemplo</td>
+              <Td>945 345 23</td>
+          </tr>
+         <tr>
+              <Td>Exemplo</td>
+              <Td>945 345 23</td>
+           
+             </tr>
+            <tr>
+                  <Td>Exemplo</td>
+                  <Td>945 345 23</td>
+            </tr>
+              <tr>
+                  <Td>Exemplo</td>
+                  <Td>945 345 23</td>
+             </tr>
+                <tr>
+                  <Td>Exemplo</td>
+                  <Td>945 345 23</td>
+                </tr>
+                <tr>
+                <Td>Exemplo</td>
+                <Td>945 345 23</td>
+              </tr>
+               <tr>
+                  <Td>Exemplo</td>
+                  <Td>945 345 23</td>
+                </tr>
+                 <tr>
+                   <Td>Exemplo</td>
+                   <Td>945 345 23</td>
+                  </tr>
+                  <tr>
+                     <Td>Exemplo</td>
+                     <Td>945 345 23</td>
+                   </tr>
+                     <tr>
+                      <Td>Exemplo</td>
+                     <Td>945 345 23</td>
+                     </tr>
+                     <tr>
+                   <Td>Exemplo</td>
+                  <Td>945 345 23</td>
+                  </tr>
+                  <tr>
+                  <Td>Exemplo</td>
+                  <Td>945 345 23</td>
+                  </tr>
+                  <tr>
+                     <Td>Exemplo</td>
+                     <Td>945 345 23</td>
+                  </tr>
+                  <tr>
+                   <Td>Exemplo</td>
+                  <Td>945 345 23</td>
+                  </tr>
+
+      </tbody>
+      <tfoot>
+         <tr>
+           <th scope="row">Total de Habitantes</th>
+            <td>0000</td>
+         </tr>
+      </tfoot>
+   </table>
+</body>
+</html>
